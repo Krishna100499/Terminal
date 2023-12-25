@@ -1,0 +1,25 @@
+{
+    "class": "FSD",
+    "studend": [
+      {
+        "name": "siva",
+        "stack": [
+          "html",
+          "css",
+          {
+            "js": ["react", " angular"]
+          }
+        ]
+      },
+      {
+        "name": "chandru",
+        "stack": [
+          "html",
+          "css",
+          {
+            "js": ["vue", " react"]
+          }
+        ]
+      }
+    ]
+  }
