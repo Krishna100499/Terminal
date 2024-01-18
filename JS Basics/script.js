@@ -82,11 +82,12 @@ const nestObj = [
 console.log("Siva", nestObj[0].studend[0].stack[2].js[0]);
 console.log("Chnadru", nestObj[0].studend[1].stack[2].js[0]);
 
-
 console.log(document);
 console.log(window);
 
-let xhr = new XMLHttpRequest();
+console.log(" HI Krishnamoorthy - Welcome to the Board Again 15-01-2024 - 10:45 A.M")
+// XMLHTTP Request 
+let xhr = new XMLHttpRequest(); 
 console.log(xhr);
 xhr.open("GET", "https://restcountries.com/v3.1/all");
 xhr.send();
@@ -94,12 +95,12 @@ xhr.onload = function () {
   const data = JSON.parse(xhr.response);
   console.log(data);
 };
-
+// Example for Stringify and Parse
 let dummyJson = {
   name: "sanjay",
 };
-
 const strJSon = JSON.stringify(dummyJson);
 console.log(strJSon);
 const data1 = JSON.parse(strJSon);
 console.log(data1);
+
