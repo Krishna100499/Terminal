@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<!-- 
+    1.
+    Boilerplate
+    head, body, meta, 
+    Div, H1,Hr, ol, ul, li, p, span, semantics Tag
+    UTF-8- Character set
+    1. research
+    spider alogrithim
+    Faang
+    Ascii to UTF
+    SEO- Search engine operator
+    Dribble ( UI design)
+ -->
+<html lang="en"> <!-- alwasy need te be in en - english only -->
+<head>
+    <!-- Meta tags are HTML tags used to provide additional information
+        about a page to search engines and other clients. Clients process
+         the meta tags and ignore those they don't support. meta tags are added to the -->
+    <!-- meta is the self closing Tag and Meta will have only two atributies ( name and content) -->
+    <!-- Meta and Title tag needs to placed in Head tag only -->
+<meta charset="UTF-8"> <!--Charset - before we used (ASCII)-->
+<meta name="description" content="learn fullstak">         <!-- discription of the tag-->
+<meta name ="keyword" content="courses, fullstack, progarmming"> <!--we are seting a keyword for search -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--we are seting standard with to Display -->
+<title>HTML</title>
+</head>
+<body>
+    <!-- tags or Elements -->
+    <!-- The HTML element is everything from the start tag to the end tag: <tagname>
+        Content goes here...</ tagname> Examples of some HTML elements: <h1>My First Heading</h1> -->
+  <!-- Headings  -->
+  <div> 
+<!-- The <div> tag defines a division or a section in an HTML document. 
+    The <div> tag is used as a container for HTML elements - 
+        which is then styled with CSS or manipulated with JavaScript.
+         The <div> tag is easily styled by using the class or id attribute. 
+            (for Creating Block of Structure)  -->
+            <h1>Headings 1</h1>
+            <h2>Headings 2</h2>
+            <h3>Headings 3</h3>
+            <h4>Headings 4</h4>
+            <h5>Headings 5</h5>
+            <h6>Headings 6</h6>
+  </div>
+  <hr/><!-- Self Closing tag-->
+  <!-- hr tag will create create one horizontal line in the Page -->
+<!-- List - Orders List -->
+<div>
+          <h1>List</h1>
+          <h2>Ordered List</h2>
+          <div>we can also change the type of an order by type arritbute</div>
+          <ol type="A"> <!--order list-->
+             <!-- default will be 1,2,3 and we can use - a,B,1,I,..( Defalut Type )-->
+               <li>Bharkavi</li> <!-- List-->
+               <li>Abinesh</li> 
+               <li>Ajay</li>      
+          </ol>
+         <h2>Unorderd list</h2>
+         <ul> <!-- unorder List ( .,*,..) will learn the type later on-->
+          <li>Bharkavi</li>
+          <li>Abinesh</li> 
+          <li>Ajay</li>      
+          </ul>
+</div>
+<hr/>
+<div>
+     <h1>Block and Inline elements </h1> <!-- it will take whole line or Block so it is called Block Elements (div,p,..)-->
+     <h2>Block elements</h2>
+    <div style="background-color: red;">Hi I'm  a div, a block level element</div>  
+    <p style="background-color: red;">I',m a pragraph</p> 
+     <h2>Inline elements</h2> <!--it will take perticular content befor end -->
+     <span style="background-color:yellow;">Hi I'm span</span>
+     <span style="background-color:yellow;">Hi I'm span2</span>
+     <i style="background-color:yellow;">I', italyics</i>
+</div>
+<hr>
+<div style="background-color:yellow;">Hey I',ma  div</div>
+<section style="background-color:green;">Hey I'm section </section>
+<article style="background-color:red;">Hey I'm an article</article>
+<hr/>
+<h1>Semantics Tags</h1> <!-- codeing redablity perpose-->
+<!-- Semantic HTML tags are tags that define the meaning of the content they contain. 
+    Some examples of semantic HTML tags include <header>, <article>, and <footer>. 
+        Some examples of non-semantic HTML elements include <div> and <span> -->
+<section>
+
+<header>
+
+          <nav>
+                    Home
+                    about
+          </nav>
+</header>
+
+          <main>
+
+                    <article>Articile</article>
+                    <aside>Aside tags</aside>
+          </main>
+          <footer>
+          contatct us footer info
+          </footer>
+</section>
+<hr/>
+<!-- End of first Session -->
+<!-- Class 02 -->
+<!-- Agenda
+0.<filedse><legend>     
+1.From
+<lable><input/></lable> - Synaptics
+attr - type, required, name, placeholder
+2.Table
+<table> <thead> <th>Name</th> </thead> <tbody> <tr> <td>Krisnamoorthy<td> </tr> </tbody> </table> - Synaptics
+attr - border, cellspacing,cellpadding, colspan, rowspan
+3.links and images
+i.anchore Tags
+     - same tab
+     - another tab ( traget='_black')
+ii. img ( self closing tag)
+     - src , alt, width , hight-->
+<!-- 1. Forms-->
+<button>Normal Save</button>
+<h1>Forms</h1>
+<fieldset> <!-- will create a box of this content-->
+     <legend style="color:brown"><h2><i>Basic Form</i></h2></legend>  <!--on the outside box name will be added-->
+     <form> <!-- from of contect ( Synaptics)-->
+          <label for="first-name">First Name</label>  <!-- Lable of contect ( Synaptics)-->
+          <input 
+          type="text"  
+          name = "first-name"
+          placeholder="Enter your First Name"
+          /> <!-- type Attribute define the type , name attribute is just for out Referene and it is good to use, 
+            place holder will hold the data in the input box & require is a  atribute the data must be there-->
+          <br>
+          <br>
+     
+          <label for="email">Email</label>
+          <input 
+          type="email"
+          placeholder="Enter your Email"
+          name = "email"
+          required
+          />
+          <br><br>
+          <button>Submit</button>
+     </form>
+</fieldset>
+
+<!-- 2. Table -->
+<hr>
+<h1>Tables</h1>
+     <table border="1" cellspacing="0" cellpadding="10">
+          <!-- boder tigness, outside space between each cell , inside the cell space -->
+     <thead> <!-- Table head-->
+          <th>SI.NO</th> <!-- Table head-->
+          <th>Name</th>
+          <th>Age</th>
+          <th>Batch</th>
+     </thead>
+     <tbody> <!-- Table Body-->
+     <tr> <!-- Table row-->
+          <td>1</td> <!-- Table div or data-->
+          <td>Arun</td>
+          <td colspan="2">Nil</td> <!-- same as excel merage - -->
+     </tr>
+     <tr>
+          <td>2</td>
+          <td>Ajay</td>
+          <td>25</td>
+          <td rowspan="2">FSD_GUVI</td>
+          
+     </tr>
+     <tr>
+          <td>3</td>
+          <td>Ashok</td>
+          <td>20</td>
+
+     </tr>
+     </tbody>
+     </table>
+<hr>
+<h1>Links and Images</h1>
+
+<h2>Anchor Tags</h2>
+
+<h3>Same Tab</h3>
+<a href="https://www.google.com/">google</a>
+<h3>Another Tab </h3>
+<a href="https://www.google.com/" target="_blank">google</a>
+<!-- target black will switch to new tab -->
+<h2>Images</h2>
+<h3>Image from web</h3>
+<img
+src="data:image/jpeg;base64,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"
+alt="Cartoon Image"
+width="200"
+height="200"
+/>
+<br>
+<!-- alt - if the img not loaded crtly the cartoon image txt will be shown -->
+<img
+alt="this is an plain img"/>
+<!-- img from local -->
+<h3>Image from local</h3>
+<img
+src="/HTML/test - img.jpeg"
+alt="Local Cartoon Image"
+width="200"
+height="200"
+/>
+<hr/>
+<h1>Different Input types</h1>
+<input type="text"> <br> <br>
+<input type="number"> <br> <br>
+<input type="color"> <br> <br>
+<input type="password"> <br> <br>
+<input type="checkbox">Male <br> <br>
+<input type="checkbox" checked>Female <br> <br>
+<input type="date"> <br> <br>
+<input type="datetime-local"><br> <br>
+<input type="file"><br><br>
+<input type="radio" name="gender"/>Male<br><br>
+<input type="radio" name="gender"/>Female<br><br>
+<input type="radio" name="gender"/>Other<br><br>
+<input type ="range"/><br><br>
+<input type="reset"/><br><br>
+<input type="search" placeholder="search city"/><br><br>
+<input type="time"/><br><br>
+<input type="week"/><br><br>
+<input type="url"/><br><br>
+<input type="email"/><br><br>
+<input type="submit"/><br><br>
+<textarea placeholder="Feedbacks"></textarea><br><br>
+<label>STACK</label>
+<select>
+     <option>MERN</option>
+     <option>MEAN</option>
+     <option selected>Java fullstack</option>
+     <option disabled>GO fullstack</option>
+     <option>Python fullstack</option>
+</select>
+<br><br>
+<input type="text" list="city" placeholder="search city"/>
+<datalist id="city">
+     <option>Cheanni</option>
+     <option>Bangalore</option>
+     <option>Kochi</option>
+     <option>Hyderabad</option>
+</datalist>
+
+<!-- time end at 2:15 min  -->
+
+<br><br><br>
+<br><br><br>
+</body>
+</html>
