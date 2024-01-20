@@ -1,0 +1,63 @@
+div{
+    color: green 
+}
+/* Four Pillar Properties */
+/* list property */
+ul{
+    list-style:circle; 
+}
+/* font property */
+p{
+    font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-style: italic;
+}
+/* text property */
+p{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    background-color: rgb(77, 255, 0);
+
+}
+/* border property */
+p{
+    /* border - bordersize, border-style , border color */
+    border: 5px dotted red;
+}
+/* selectors 
+    Class selectors -group sets
+     Id selectors - unique*/
+    /* in element we can have class & id , multipe clas, 
+    but only one id for an element */
+/* class selectors - > . opertor symble */
+/*  class selector is used to select all elements 
+which belong to a particular class attribute. In 
+order to select the elements with a particular class, 
+use the period (.) character specifying the class name ie.
+, it will match the HTML element based on the contents of their class attribute. */
+/* we can use mulitile classes in the single element */
+
+.clr{
+    background-color: black;
+    color: white;
+}
+
+.alg{
+    text-align: center;
+}
+.opr{
+    text-align: center;
+}
+.clr2{
+    font-size: larger;
+}
+/* id selector -> # operator symble */
+/* First priorty, we can change the prority by  */
+/* only one id in the single element */
+#borer_doted{
+    border: 3px dashed blue;
+}
