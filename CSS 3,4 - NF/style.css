@@ -1,10 +1,10 @@
-*{
+/* *{
     margin : 0;
     padding: 0;
     text-align: center;
-    }
+    } */
     
-    #main-div{
+    /* #main-div{
     display: flex;
     border: 2px solid black;
     height: 580px;
@@ -32,7 +32,7 @@
      /* align-content: space-around;  */
     /* align-content: space-between;  */
     /* align-content: space-evenly; */
-    }
+   
     
     .box{
     width: 50px;
@@ -45,7 +45,7 @@
     align-items: center;
     
     }
-    
+/*     
     .parent{
               width : 100px;
               height: 100px;
@@ -59,4 +59,4 @@
               width : 50px;
               height: 50px;
               border : 1px solid red;  
-    }
+    } */
