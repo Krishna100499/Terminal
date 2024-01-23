@@ -34,6 +34,7 @@ p{
     /* in element we can have class & id , multipe clas, 
     but only one id for an element */
 /* class selectors - > . opertor symble */
+/* for group styleing we use Classes */
 /*  class selector is used to select all elements 
 which belong to a particular class attribute. In 
 order to select the elements with a particular class, 
@@ -53,11 +54,54 @@ use the period (.) character specifying the class name ie.
     text-align: center;
 }
 .clr2{
+    border: 5px dotted yellow !important ;
     font-size: larger;
 }
 /* id selector -> # operator symble */
 /* First priorty, we can change the prority by  */
 /* only one id in the single element */
+/* for unique styleing we use ID */
 #borer_doted{
-    border: 3px dashed blue;
+    border: 3px dashed red;
+    background-color: blue;
+}
+#border-dashed{
+    border: 4px dashed blue;
+}
+
+/* display property: inline, block */
+
+/* -> i.converting inline to block element */
+/* on inline element width and height will not work
+because span will take only given sapce */
+/* to convert from inline to block use display porperty as Block */
+.block{
+    display: block; /*converting inline to block (span to div)*/
+    background-color: red;
+    padding: 5px;
+    margin: 10px;
+    /* width: 70px;
+    /* height: 20px; IN Inline width and height will not work*/
+    width: 100px;
+    height: 20px; /*after converting to block it will work*/
+    text-align: center;
+
+}
+.inline{
+    display: inline; /*coverting block to inline( div to span)*/
+    background-color: red;
+    padding: 5px;
+    margin: 10px;
+    /* width: 70px;
+    height: 20px; IN Inline width and height will not work */
+    text-align: center;
+}
+.inline-block{
+    display: inline-block; /*coverting block to inline (div to span ) */
+    background-color: red;
+    padding: 5px;
+    margin: 10px;
+    width: 100px;/*IN inline property width and height will work*/
+    height: 20px; 
+    text-align: center;
 }

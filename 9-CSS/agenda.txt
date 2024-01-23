@@ -1,0 +1,13 @@
+/ roadmap class - 
+1. Four pillers.
+    a.list property
+    b.text property
+    c.border property
+    d.font property
+2.selctors.
+    a.class 
+    b.Id
+3.display property
+    a.iniline.
+    b.block
+    c.inline-block

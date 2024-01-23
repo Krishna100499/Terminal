@@ -12,6 +12,7 @@ Acc- Array - ${accArr}
 });
 
 log(`----------MRF-----------`);
+// MRF - MAP, Reduce, Filter
 log(`-----------Map---------`);
 // It will return an new array
 const mapReturn = arr.map((value, index, accArr) => {
