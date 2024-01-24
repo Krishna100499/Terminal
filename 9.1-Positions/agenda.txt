@@ -1,0 +1,16 @@
+Box Model
+    - .box-model ( padding, margin, border, border-radius) - 34.50
+    [classes- boxmodel& btn]
+positions property positions:
+    - absolute, relative, sticky ,fixed with example
+    -1.04 min  notes need to take
+    [classes- main-container, box, absolute, relative, sticky ,fixed and subclass]
+    
+
+
+
+1.box model: padding,margin,border 
+Flex - display, direction, wrap, flex-flow, justify-content, align-content
+2.position property: fixed,static,relative,absolute,sticky
+3.parent inherit 
+gradient"

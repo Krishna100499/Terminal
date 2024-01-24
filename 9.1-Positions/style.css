@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0; /* changing the default margin and padding to 0*/
+}
+/*with the help of box model we can understand the 
+box-> margin,border,padding and Border-radius*/
+/* if it is not refecting in the Brower->inspect->style.
+right click once agin the inspect and it will work  */
+.box-model{  /* Box model - box design*/
+    border :10px solid black; /* outside border*/
+    width: 200px; 
+    height: 200px;  
+    background-color: yellow;
+    margin : 60px 20px; /* 2 means top,down & left right*/
+    padding : 60px 15px 60px 15px; 
+             /* top right bottom left */
+}
+.btn{
+    border: 2px solid black; /*Border Radius*/
+    margin: 10px; /*Margin - outside border*/
+    padding: 10px; /*padding - inside border*/
+    border-radius: 10px; /*Border-radious - border curve*/
+}
+
+.sub-class{
+    position: sticky;
+    top : 0;
+    width: 100vw;
+    border : 2px solid red;
+    padding : 15px;
+    background-color: black;
+     color: white; 
+    font-size: larger;
+    text-align: center;
+}
+/* takes screen as the parent containner*/
+    /* position outside the containner */
+.absolute{
+position: absolute; 
+top:15px;
+left : 220px;
+background-color: brown;
+}
+/* takes immdieate parent div as the parent- containner  */
+/* position inside the containner */
+.relative{
+position: relative;
+top: 60px;
+left : 100px;
+background-color: red;
+}
+/* takes immdieate parent div as the parent- containner  */
+/* position inside the containner and holds the data from sticky to the end of the sheet */
+/* her we used sticky in the boday containner and it holds the data till end */
+.sticky{
+position: sticky;
+top:0;  
+background-color: royalblue;
+}
+ /* takes screen as the parent containner*/
+    /* position outside the containner and holds the data till end */
+.fixed{
+position: fixed;
+top:0;
+right :0;
+background-color: rebeccapurple;
+height: 200px;
+width: 200px;
+}
+p{
+    font-size: 30px; 
+    color: blue;
+    /* to right to left to bottom to top */
+    background: radial-gradient(ellipse, yellow, coral);
+    }
+    .par-cls{
+    font-size: 18px;
+    color: rgb(163, 66, 66);
+    background: radial-gradient(closest-side, yellow, coral);
+    
+    }
+    .child{
+    font-size: inherit; /* it will inherit - p - Font size as 30px*/
+    color: inherit;
+    background: radial-gradient(circle, yellow, coral);
+    }
