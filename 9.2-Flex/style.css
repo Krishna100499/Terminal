@@ -1,0 +1,66 @@
+*{
+    /* star * include entire body */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#main-div{
+    border: 2px solid black;
+    height: 200px;
+    margin: 20px;
+    padding: 15px;
+    display: flex; 
+    /* convert main div display to flex 
+    with the help of this we do may things */
+    gap: 0.5rem;
+    /* inbetween box gap */
+    flex-wrap: wrap; 
+    /* it will wrap inside the box evenly */
+    /* flex-wrap: wrap-reverse; */
+    /* from downwords */
+
+       /* Directing the elements */
+    /* flex-direction: column;  */
+            /* Default it will row . if we give this it will convert to colum */
+    /* flex-direction: column-reverse; */
+            /* colum reverse */
+     /* flex-direction: row; */
+            /* convert to row */
+    /* flex-direction: row-reverse; */
+            /* convert to row reverse */
+
+        /* Handling the conatiners in x-axis  - Breath - jusity for x- axis*/
+    /* justify-content: center; */
+            /* convert to center - left right center - x-axis */
+    /* justify-content: space-around; */
+            /* space will be sperated in inbetween box and start and end point will be default ( evenly will not separaterd) -RL */
+    /* justify-content: space-evenly;   */
+            /* space will be evely seprated in between simlier to space around*/
+    /* justify-content: space-between;  */
+            /* evenly between box and not space end and start point */
+    /* justify-content: flex-start; */
+            /* box left side - starting point */
+    /* justify-content: flex-end; */
+            /* box right side - ending point */
+    /* justify-content: stretch;  */
+            /* Handling the conatiners in y-axis  - length - align for y axis*/
+    /* align-content: center; */
+            /*convert to center - up and down - y-axis*/
+    /* align-content: flex-end; */
+            /*  box down side - Down point*/
+    /* align-content: space-around;  */
+              /* space will be sperated in inbetween box and start and end point will be default ( evenly will not separaterd) -RL */
+    /* align-content: space-between;  */
+              /* evenly between box and not space end and start point */
+    /* align-content: space-evenly; */
+            /* space will be evely seprated */
+
+}
+.box{
+    border: black solid 3px;
+    height: 20px;
+    width: 20px;
+    background-color:rebeccapurple;
+    color: white;
+    font-weight: bolder;
+}
